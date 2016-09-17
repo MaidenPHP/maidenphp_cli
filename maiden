@@ -1,0 +1,11 @@
+#! /usr/bin/env/php
+<?php
+
+require 'vendor/autoload.php';
+
+$app = new Symfony\Component\Console\Application('Maiden Command Line Interface', '1.0');
+
+$app->add(new Maiden\MaidenCommand());
+$app->add(new Maiden\TableCommand());
+
+$app->run();

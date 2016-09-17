@@ -1,0 +1,7 @@
+building command line apps with symfony
+
+- put it up on github
+- gitignore
+- readme
+- integrate it with circleci
+- install phpunit and configute it via composer
